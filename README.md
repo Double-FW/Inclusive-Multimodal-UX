@@ -4,46 +4,40 @@ Guidance for designing experiences that people can perceive, understand, and con
 
 ## Purpose
 
-This repository brings together cross-platform guidance on modality choice and continuity, sensory and interaction flexibility, semantic structure, and inclusive experience. It is intended for designers, researchers, product teams, engineers, accessibility specialists, and AI systems supporting their work.
+This repository brings together cross-platform guidance on modality choice and continuity, sensory and interaction flexibility, semantic structure, and inclusive experience. It supports designers, researchers, product teams, engineers, accessibility specialists, and AI systems working under human authority.
 
-The aim is to help teams understand whether meaning, choice, feedback, and task progress remain available when a person changes how they perceive or control a service. Multimodal design should support useful choice and equivalent outcomes; it should not assume that every person wants automatic adaptation or the same combination of modes.
+Multimodal design should support meaningful choice and comparable outcomes. It should not assume that every person wants the same combination of modes or that adding channels is always helpful.
 
-## Scope
+## Repository contents
 
-This repository is intended to cover:
+| File | Use it for |
+|---|---|
+| [Multimodal_UX_Design.md](Multimodal_UX_Design.md) | Consolidated principles, contexts, input/output choices, transitions, feedback, evaluation, and design process |
+| [Structural Accessibility and Semantic Design for Multi-Modal Experiences.md](Structural%20Accessibility%20and%20Semantic%20Design%20for%20Multi-Modal%20Experiences.md) | Detailed hierarchy, grouping, landmarks, navigation, roles, states, and semantic relationships |
+| [Multimodal_Design_Maturity_Model.md](Multimodal_Design_Maturity_Model.md) | A planning model for discussing organisational capability; not a validated score or compliance tool |
+| [Multimodal_UX_Agent_Prompt_Guide.md](Multimodal_UX_Agent_Prompt_Guide.md) | Reusable prompt components for design, review, and research planning |
+| [AGENTS.md](AGENTS.md) | Rules for source use, evidence, scope routing, and agent conduct |
 
-- input methods such as keyboard, touch, pointer, voice, switches, and assistive technology;
-- output through visual, spoken, textual, tactile, and other relevant channels;
-- transitions between modes, persistent context, feedback, errors, and recovery;
-- interaction across web, mobile, voice, and large-screen contexts;
-- semantic structure, hierarchy, and programmatic relationships that make content available beyond its visual presentation;
-- design and research methods for evaluating meaningful choice and comparable outcomes.
+## Related repositories
 
-## Boundaries and related repositories
-
-- **Media Interfaces** owns media-player, Connected TV, remote-control, and media access-service interaction guidance. This repository covers only general modality principles that also apply to media.
-- [Inclusive Product Design Principles](https://github.com/Double-FW/Inclusive-Product-Design-Principles) owns the wider design philosophy, paired-perspective research method, and evidence governance. Link to it rather than duplicating its principles.
-- [VR/XR/AR Accessibility](https://github.com/Double-FW/VR_XR_and_AR_Accessibility) owns immersive and spatial interaction guidance.
-- [Cognitive UX Design](https://github.com/Double-FW/Cognitive-UX-Design) owns cognitive accessibility and form-specific cognitive journeys.
-- [QA Accessibility Testing](https://github.com/Double-FW/QA_Accessibility_Testing) owns test planning and evidence frameworks. This repository does not itself establish legal conformance.
-
-## Planned source material
-
-The initial content is expected to be consolidated from:
-
-- `Multimodal_UX_Design.md` in [Inclusive and Effective Design](https://github.com/Double-FW/Inclusive_and_Effective_Design);
-- `Structural Accessibility and Semantic Design for Multi-Modal Experiences.md` in [Inclusive and Effective Design](https://github.com/Double-FW/Inclusive_and_Effective_Design).
-
-These guides have not yet been copied or reconciled. The multimodal source contains overlapping frameworks and must be edited into one coherent, traceable guide before migration. Keep source attribution, useful unique material, and provenance. Do not retain competing full copies after a canonical version is established.
+- [Inclusive Media Interfaces](https://github.com/Double-FW/Inclusive-Media-Interfaces) owns TV, streaming, playback controls, media access services, and physical/connected product control relevant to media access.
+- [Cognitive UX Design](https://github.com/Double-FW/Cognitive-UX-Design) owns detailed cognitive accessibility and form journeys.
+- [VR/XR/AR Accessibility](https://github.com/Double-FW/VR_XR_and_AR_Accessibility) owns immersive and spatial interaction.
+- [Inclusive Product Design Principles](https://github.com/Double-FW/Inclusive-Product-Design-Principles) owns design philosophy, paired perspectives, research governance, and evidence discipline.
+- [QA Accessibility Testing](https://github.com/Double-FW/QA_Accessibility_Testing) owns requirements-based testing and QA evidence.
 
 ## Start here
 
-1. Read [AGENTS.md](AGENTS.md) before using these materials in an AI-assisted workflow.
-2. Identify the person's goal, task, context, available modes, and the decisions they should control.
-3. Review relevant guidance and record which claims are sourced, observed, inferred, or untested.
-4. Evaluate a realistic journey across the relevant input and output modes, including mode changes, errors, and recovery.
-5. Record limitations and the next evidence needed. Do not describe a design as accessible or conformant solely because an agent reviewed it.
+1. Read [AGENTS.md](AGENTS.md).
+2. Define the task, goal, context, and available input/output methods.
+3. Use the main guide for general modality questions and the semantic module for detailed structure questions.
+4. Route media, cognitive, and immersive specifics to their specialist source.
+5. Record evidence, assumptions, limitations, and what should be tested with people.
+
+## Source and consolidation note
+
+The main guide consolidates overlapping frameworks and repeated prompt templates from `Multimodal_UX_Design.md` in [Inclusive and Effective Design](https://github.com/Double-FW/Inclusive_and_Effective_Design). The maturity model and unique prompt material are retained in companion files. The semantic-structure source remains a separate module; shared modality guidance is linked rather than repeated. Preserve provenance and update the original repository with migration links after the destination material has been reviewed.
 
 ## Status
 
-Repository foundation. Source guides and migration history are still to be added and reviewed. The presence of this README does not imply that a complete multimodal design standard, research validation, or legal assessment exists.
+Initial consolidated guidance for review. It is design support, not a legal or conformance determination, a validated maturity instrument, or evidence of user outcomes.
