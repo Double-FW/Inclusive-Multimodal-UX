@@ -170,8 +170,9 @@ language:
 tags:
 - accessibility
 - inclusive-design
-- television
-- media
+- multimodal-ux
+- semantic-structure
+- interaction-design
 - user-experience
 - agent-governance
 configs:
@@ -203,11 +204,11 @@ The two configurations overlap by design; do not concatenate them as if they wer
 - `knowledge_chunks.jsonl`: heading-level sections from the four active guidance documents, with heading paths, line ranges, hashes, and source/revision metadata.
 - `documents.jsonl`: full README, AGENTS, and four active guidance documents for context and verification.
 
-The active guidance documents are Connected TV, Accessible Interactive Media Control, Physical and Connected Product Control, and TV Accessibility Feature Reference. Specialist-owned content, migration pointers, and superseded material are not separately duplicated into this export. The repository's MIT licence is included.
+The four active guidance documents are Multimodal Design Maturity Model, Multimodal UX Agent Prompt Guide, Multimodal UX Design, and Structural Accessibility and Semantic Design for Multi-Modal Experiences. README.md and AGENTS.md provide repository context. No separate legacy source documents are added beyond files in the current repository. Specialist detail remains owned by its linked repositories. The repository's MIT licence is included.
 
 ## Use and limitations
 
-Use source metadata and context paths when retrieving a section. Read the full document where qualifications depend on surrounding content. Keep documented platform examples, recommendations, observed behaviour, participant reports, hypotheses, and legal or conformance assessments distinct. Verify model, software, region, service, and current implementation before making product-specific claims.
+Use source metadata and context paths when retrieving a section. Read the full document where qualifications depend on surrounding content. Keep source guidance, participant reports, observed behaviour, design recommendations, hypotheses, and legal or conformance assessments distinct. Check the actual product, supported interaction methods, task, and context before making product-specific claims.
 
 The corpus contains guidance, not participant, customer, health, or confidential organisational data. No generated question/answer pairs, benchmark split, model weights, evaluation results, or evidence that a model has been trained are included. The `train` split label does not mean model training occurred.
 
@@ -247,7 +248,7 @@ GitHub is the authoring source. GitHub Actions publishes approved changes after 
         "document_paths": DOCS,
         "chunk_paths": CHUNKS,
         "records": {"documents": len(documents), "knowledge_chunks": len(chunks)},
-        "selection_note": "README.md and AGENTS.md provide context. Four active media-interface guides supply section records. Specialist-owned and migration content is not duplicated.",
+        "selection_note": "README.md and AGENTS.md provide context. Four current multimodal UX and semantic-structure guides supply section records. Specialist-owned guidance is not copied as additional source documents.",
         "limitations": [
             "Guidance only; not legal advice, a conformity decision, or product evaluation.",
             "Full documents and section records overlap by design.",
