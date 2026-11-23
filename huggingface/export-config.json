@@ -1,0 +1,28 @@
+{
+  "source_repository": "Double-FW/Inclusive-Multimodal-UX",
+  "destination_dataset": "GarethFW/Inclusive_Multimodal_UX",
+  "dataset_version": "1.0.0",
+  "document_files": [
+    "AGENTS.md",
+    "README.md",
+    "Multimodal_Design_Maturity_Model.md",
+    "Multimodal_UX_Agent_Prompt_Guide.md",
+    "Multimodal_UX_Design.md",
+    "Structural Accessibility and Semantic Design for Multi-Modal Experiences.md"
+  ],
+  "chunk_files": [
+    "Multimodal_Design_Maturity_Model.md",
+    "Multimodal_UX_Agent_Prompt_Guide.md",
+    "Multimodal_UX_Design.md",
+    "Structural Accessibility and Semantic Design for Multi-Modal Experiences.md"
+  ],
+  "source_files": [
+    "AGENTS.md",
+    "README.md",
+    "Multimodal_Design_Maturity_Model.md",
+    "Multimodal_UX_Agent_Prompt_Guide.md",
+    "Multimodal_UX_Design.md",
+    "Structural Accessibility and Semantic Design for Multi-Modal Experiences.md",
+    "LICENSE"
+  ]
+}
