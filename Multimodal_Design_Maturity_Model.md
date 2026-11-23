@@ -10,7 +10,7 @@ Use this model to discuss how consistently an organisation designs experiences a
 |---|---|---|
 | 1 | Single-mode awareness | Experiences are designed mainly around one mode, often visual and pointer-based. Accessibility is late or treated only as a technical requirement. |
 | 2 | Alternative support | Teams recognise varied modes and add alternatives, but these are often secondary or inconsistent. |
-| 3 | Equivalent experiences | Teams design for comparable outcomes across relevant senses and inputs from the start. |
+| 3 | Comparable outcomes | Teams consider task outcomes across relevant modes from the start and record differences in presentation, effort, and control. |
 | 4 | Integrated systems | Multimodal practice is coherent across products, platforms, design systems, and teams. |
 | 5 | Adaptive inclusive ecosystem | The organisation supports user-controlled adaptation across changing context and needs, with inclusive practice embedded in strategy and culture. |
 
@@ -21,7 +21,7 @@ A team may be stronger in one dimension than another. Do not collapse evidence i
 1. **Sensory flexibility:** Can important information be perceived through suitable alternatives?
 2. **Input flexibility:** Can people complete tasks through appropriate interaction methods?
 3. **Platform consistency:** Do meaning, controls, and state remain coherent across platforms?
-4. **Experience parity:** Are outcomes, control, and quality comparable across modes?
+4. **Outcome comparability:** Are task outcomes, control, and experience comparable across modes? What differences and evidence support the judgement?
 5. **Context awareness:** Does design account for realistic environments and changing circumstances?
 6. **Design-process integration:** Are varied modes considered in research, ideation, prototyping, and evaluation?
 7. **Organisational capability:** Do teams have ownership, skills, evidence, and systems to maintain the practice?
@@ -61,4 +61,4 @@ A team may be stronger in one dimension than another. Do not collapse evidence i
 4. Identify one practical improvement and how its effect will be observed.
 5. Revisit the model after work is completed; do not treat a higher rating as proof of user outcomes.
 
-This model is adapted from the maturity content in the original `Multimodal_UX_Design.md` source. Its levels and dimensions are planning prompts, not a validated measurement instrument.
+This model is adapted from the maturity content in the original `Multimodal_UX_Design.md` source. Its levels and dimensions are planning prompts, not a validated measurement instrument. A rating is a reasoned judgement for a defined scope and period, not a claim that one mode is equivalent to another.

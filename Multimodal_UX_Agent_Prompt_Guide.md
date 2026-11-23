@@ -1,6 +1,6 @@
 # Multimodal UX Agent Prompt Guide
 
-Use these prompt components to ask an AI system for structured design support. A generated response is a hypothesis or draft, not user research, technical verification, or evidence of conformance.
+Use these prompt components to ask an AI system for structured design support. A generated response is a hypothesis or draft, not user research, technical verification, or evidence of conformance. Follow [Terminology and Principles](https://github.com/Double-FW/Terminology-and-Principles), check each relevant entry’s status, and distinguish “comparable” from “equivalent” rather than treating them as synonyms.
 
 ## Shared instruction
 
@@ -55,4 +55,4 @@ Add the following task-specific prompt only when relevant.
 - Immersive and spatial interaction: use [VR/XR/AR Accessibility](https://github.com/Double-FW/VR_XR_and_AR_Accessibility).
 - Wider design philosophy and paired perspectives: use [Inclusive Product Design Principles](https://github.com/Double-FW/Inclusive-Product-Design-Principles).
 
-For a multimodal review, ask the agent to return: task and context; input/output map; meaning and state risks; possible changes; evidence needed; assumptions and limitations; and specialist sources consulted.
+For a multimodal review, ask the agent to return: task and context; input/output map; meaning and state risks; possible changes; evidence needed; assumptions and limitations; terminology and status consulted; and specialist sources consulted.
