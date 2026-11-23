@@ -62,6 +62,12 @@ The main guide consolidates overlapping multimodal frameworks and repeated promp
 
 Preserve provenance when revising consolidated content. Linked and quoted source material remains subject to its own attribution and licence terms; this repository’s MIT licence does not change those terms.
 
+## Hugging Face dataset sync
+
+This repository is the authoring source for the [Inclusive Multimodal UX dataset](https://huggingface.co/datasets/GarethFW/Inclusive_Multimodal_UX). The curated export contains complete guidance documents and heading-level sections with source revision metadata. These views overlap by design.
+
+GitHub Actions syncs approved changes from the default branch weekly and after changes to the curated files. See [huggingface/SETUP.md](huggingface/SETUP.md) for token setup and workflow details. GitHub remains the source of truth.
+
 ## Licence
 
 This repository uses the MIT licence, as stated in [LICENSE](LICENSE).
