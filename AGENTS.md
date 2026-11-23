@@ -1,46 +1,93 @@
+---
+title: "Agent Guidance: Inclusive Multimodal UX"
+version: "1.0.0"
+author: "Double FW"
+date: "2026-11-23"
+license: "MIT"
+language: "en-GB"
+repository: "https://github.com/Double-FW/Inclusive-Multimodal-UX"
+artifact_type: "agent-governance"
+use_case: "Guide AI-assisted retrieval, design analysis, research planning, review, and maintenance of this repository."
+status: "active"
+review:
+  status: "owner_review_required"
+  owner: "Repository maintainer"
+  trusted_for_agent_use: "after_owner_review"
+license_source: "LICENSE"
+conceptual_entities:
+  task_context: "A person's goal, task, environment, device, interaction methods, and constraints."
+  modality: "A way information is perceived or an action is performed; not a fixed trait of a person."
+  evidence: "Sourced or observed information distinguished from report, interpretation, inference, hypothesis, and synthetic material."
+  design_decision: "A human-owned choice with rationale, trade-offs, evidence, and follow-up."
+agent_policy:
+  required:
+    - "Read README.md and the relevant source file before making repository-specific claims."
+    - "Use terminology according to the scope and status recorded in Terminology and Principles."
+    - "Keep sourced guidance, observed evidence, participant reports, interpretation, hypotheses, and synthetic material distinct."
+    - "Preserve choice and individual variation; do not infer one modality preference for a disability group."
+    - "Route specialist questions to the owning public Double-FW repository."
+    - "State assumptions, uncertainty, evidence limits, and what would change the recommendation."
+  human_authorization_required:
+    - "Contact participants, deploy research, or run live-user experiments."
+    - "Access or publish identifiable or sensitive research/customer data."
+    - "Change a live product, make a consequential product decision, or make a legal/conformance claim."
+---
+
 # Agent Guidance: Inclusive Multimodal UX
 
-## Purpose
+## Purpose and source routing
 
-Use this repository for design, research, and review of experiences that remain understandable and controllable across relevant perception and interaction modes. Follow the README and preserve the distinction between general multimodal UX, semantic structure, media interfaces, immersive experiences, cognitive UX, and design philosophy.
+Use this repository for general design questions about experiences across sensory, input, and output modes, devices, and contexts. It is design guidance, not a legal interpretation, conformance result, or substitute for research with people.
 
-## Source and evidence rules
+Read [README.md](README.md), then retrieve the source needed for the task:
 
-1. Read the relevant source files before making a specific claim or recommendation.
-2. Identify source paths and versions where available. Separate sourced claims, observed evidence, inference, hypotheses, and synthetic examples.
-3. Do not present generated personas, simulated tasks, automated reviews, or standards checklists as evidence from disabled people.
-4. Preserve differences between individual needs and preferences. Do not imply that one modality is universally preferred by a disability group.
-5. State uncertainty, limits, and the evidence that could change a recommendation.
-6. Do not convert design guidance into a legal or conformance conclusion.
-7. Do not prescribe multiple sensory channels for every interaction. Consider task meaning, user choice, context, overload, and available evidence.
+- [Multimodal UX Design](Multimodal_UX_Design.md): general modality choice, continuity, input/output flexibility, feedback, and evaluation.
+- [Structural Accessibility and Semantic Design](Structural%20Accessibility%20and%20Semantic%20Design%20for%20Multi-Modal%20Experiences.md): detailed hierarchy, grouping, landmarks, navigation, roles, states, and relationships.
+- [Multimodal Design Maturity Model](Multimodal_Design_Maturity_Model.md): an unvalidated reflection and planning model.
+- [Multimodal UX Agent Prompt Guide](Multimodal_UX_Agent_Prompt_Guide.md): reusable prompt components; generated output is a draft, not evidence.
 
-## Design and analysis method
+For current Double-FW terminology, consult [Terminology and Principles](https://github.com/Double-FW/Terminology-and-Principles), beginning with [START_HERE.md](https://github.com/Double-FW/Terminology-and-Principles/blob/main/START_HERE.md). Check each relevant entry's status and scope. Approval of selected decisions is not blanket approval of all glossary wording.
+
+## Evidence and terminology
+
+- Begin with the person’s goal, task, context, and the decision the work needs to support.
+- Label sourced guidance, participant reports, observed behaviour, quantitative results, interpretation, hypotheses, and synthetic examples distinctly.
+- Never present generated personas, simulated tasks, automated reviews, or checklists as evidence from disabled people.
+- Do not infer emotion, disability, preference, comprehension, or population impact from behaviour alone.
+- Preserve distinctions between user, customer, and participant; need and preference; observation, estimate, and hypothesis; and comparable and equivalent.
+- Describe the intended comparison when using “comparable” or “equivalent”; do not treat them as synonyms or assert equivalence without a defined criterion and supporting evidence.
+- Do not turn design guidance into a legal, regulatory, or conformance conclusion.
+
+## Review method
 
 For a task or journey:
 
-1. Establish the intended outcome and the person’s context.
-2. Identify the available input and output modes and which are required, optional, or unavailable.
-3. Check whether meaning, actions, state, consequences, and feedback remain available across relevant modes.
-4. Check transitions: retained context, interruptions, error handling, correction, recovery, and user control.
+1. Identify the goal, stakes, context, and relevant interaction methods.
+2. Map information, actions, state, consequences, feedback, and recovery.
+3. Identify which modes are supported, required, optional, or unavailable in the actual product.
+4. Check transitions, interruptions, errors, correction, privacy, retained context, and user control.
 5. Check semantic structure and programmatic relationships separately from visual appearance.
-6. Compare outcomes across modes without averaging away exclusion or unnecessary effort.
-7. Recommend the smallest useful change and identify how it should be evaluated.
+6. Compare task outcomes, control, effort, and understanding across relevant modes without averaging away barriers.
+7. Recommend the smallest useful next step and state how it could be evaluated.
+
+Do not add sensory channels automatically. Choose alternatives according to the meaning, task, context, user control, platform support, and evidence. Avoid overload, conflicting signals, and unexpected mode changes.
 
 ## Scope routing
 
-- Detailed semantic hierarchy, grouping, landmarks, navigation, roles, and states: [Structural Accessibility and Semantic Design for Multi-Modal Experiences](Structural%20Accessibility%20and%20Semantic%20Design%20for%20Multi-Modal%20Experiences.md).
-- TV, streaming, playback controls, media access services, and connected physical control: [Inclusive Media Interfaces](https://github.com/Double-FW/Inclusive-Media-Interfaces).
-- Cognitive accessibility and form-specific journeys: [Cognitive UX Design](https://github.com/Double-FW/Cognitive-UX-Design).
-- Immersive or spatial interaction: [VR/XR/AR Accessibility](https://github.com/Double-FW/VR_XR_and_AR_Accessibility).
+Use these public specialist repositories for detailed guidance:
+
+- TV, streaming, playback, media access services, and connected physical controls: [Inclusive Media Interfaces](https://github.com/Double-FW/Inclusive-Media-Interfaces).
+- Cognitive accessibility and form journeys: [Cognitive UX Design](https://github.com/Double-FW/Cognitive-UX-Design).
+- Immersive and spatial interaction: [VR/XR/AR Accessibility](https://github.com/Double-FW/VR_XR_and_AR_Accessibility).
 - Design philosophy, paired perspectives, and research governance: [Inclusive Product Design Principles](https://github.com/Double-FW/Inclusive-Product-Design-Principles).
 - Requirements-based testing and QA evidence: [QA Accessibility Testing](https://github.com/Double-FW/QA_Accessibility_Testing).
 
-Use shared principles by reference. Do not copy a complete specialist guide into this repository merely because it mentions more than one modality.
+Retrieve the owning source rather than copying its full specialist guidance here.
 
-## Maintenance and migration
+## Human authority, privacy, and maintenance
 
-- Preserve provenance and attribution when consolidating source documents.
-- Keep one canonical version of each substantive guide. Retain useful redirects or migration notes at old paths.
-- When a source contains repeated frameworks, compare full sections and preserve distinct information. Repeated headings used as templates do not alone prove duplicated meaning.
-- Keep examples clearly labelled and avoid inventing standards, research results, or participant quotations.
-- Propose changes to repository policy through reviewed changes; do not silently weaken evidence or scope rules.
+Agents may retrieve sources, structure questions, draft options, and analyse evidence supplied for the task. A human must authorise participant contact, research deployment, live-user experiments, access to identifiable or sensitive data, production changes, acceptance of material risk, and publication of consequential claims.
+
+Keep personal data, credentials, identifiable customer records, raw recordings, and transcripts out of this public repository. Minimise and de-identify evidence; use approved access-controlled storage where necessary.
+
+Before proposing an edit, check for broken or non-public links, duplicated or contradictory material, unsupported universal or causal claims, truncation, and provenance. Preserve attribution and source-specific licence terms; this repository’s MIT licence does not relicense linked content. Keep audit and test reports out of the repository unless explicitly requested.
