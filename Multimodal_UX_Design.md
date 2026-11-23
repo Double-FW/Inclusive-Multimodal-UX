@@ -24,7 +24,7 @@ For each task, identify:
 - what feedback tells them the action worked;
 - what they need to recover, correct, or change their mind.
 
-Then map which available channels can carry that meaning. Provide equivalent access to the information or action rather than mechanically duplicating every signal. Synchronise alternatives when timing is part of the meaning.
+Then map which available channels can carry that meaning. Aim for comparable access to essential information and actions across relevant modes rather than mechanically duplicating every signal. Define any claim of equivalence against an explicit criterion and supporting evidence. Synchronise alternatives when timing is part of the meaning.
 
 Examples include captions or visual indicators for sound, spoken or tactile access to visual information, and keyboard or voice alternatives to touch gestures. Alternatives must preserve the task’s purpose and important context.
 
@@ -64,7 +64,7 @@ Do not unexpectedly switch a person to a different modality or take control away
 
 ## 7. Use familiar patterns and communicate interaction meaning
 
-Consistency helps people learn how controls behave and transfer knowledge across screens and services. A control’s appearance, label, role, state, and result should agree. Icons can reinforce meaning but should not carry essential meaning alone; use clear labels or other equivalent cues.
+Consistency helps people learn how controls behave and transfer knowledge across screens and services. A control’s appearance, label, role, state, and result should agree. Icons can reinforce meaning but should not carry essential meaning alone; use clear labels or other cues that communicate the same essential information.
 
 For semantic hierarchy, headings, grouping, landmarks, and programmatic relationships, use the separate [Structural Accessibility and Semantic Design for Multi-Modal Experiences](Structural%20Accessibility%20and%20Semantic%20Design%20for%20Multi-Modal%20Experiences.md) module. That module owns the detailed structure guidance; this guide links to it rather than repeating it.
 
@@ -74,7 +74,7 @@ A modality can change the effort, pace, privacy, confidence, and emotional tone 
 
 Reduce unnecessary memory demands, ambiguity, and repeated error loops. Use clear options and confirmations in voice interaction, and make recovery easy after a system misunderstanding. For detailed cognitive accessibility and form guidance, use [Cognitive UX Design](https://github.com/Double-FW/Cognitive-UX-Design).
 
-Equivalent experiences need not be identical. Evaluate whether people can reach meaningful outcomes with comparable control, understanding, responsiveness, and satisfaction. Do not claim emotional equivalence without supporting evidence.
+Different modes may use different presentations. Evaluate whether people can reach meaningful outcomes with comparable control, understanding, responsiveness, and effort. Use “equivalent” only when the intended equivalence is explicitly defined and supported; do not infer emotional equivalence or satisfaction.
 
 ## 9. Apply the principles across contexts
 
