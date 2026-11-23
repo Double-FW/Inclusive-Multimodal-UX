@@ -8,7 +8,7 @@ For general input/output modality choice, transitions, sensory feedback, and exp
 
 ## 1. Structure communicates meaning and orientation
 
-A useful structure helps someone understand what an experience is about, where they are, what parts exist, how those parts relate, and what they can do next. People may encounter structure visually, sequentially, through assistive technology, or through a combination of methods.
+A useful structure helps someone understand what an experience is about, where they are, what parts exist, how those parts relate, and what they can do next. Semantic structure supports this understanding but does not, by itself, establish accessibility or conformance. People may encounter structure visually, sequentially, through assistive technology, or through a combination of methods.
 
 Plan information architecture before visual styling. Start with a conceptual outline, assign each page or screen a clear purpose, group related information, and introduce complexity progressively. The visual grouping and the semantic grouping should express the same relationships where possible.
 
@@ -75,4 +75,4 @@ An AI agent should identify which claims come from the source, which are design 
 
 ## Source note
 
-This module consolidates the structure-specific material from `Structural Accessibility and Semantic Design for Multi-Modal Experiences.md` in [Inclusive and Effective Design](https://github.com/Double-FW/Inclusive_and_Effective_Design). General multimodal principles and repeated prompt templates are routed to the companion guide and agent prompt resource.
+This module consolidates the structure-specific material from the [semantic-structure migration pointer in Inclusive and Effective Design](https://github.com/Double-FW/Inclusive_and_Effective_Design/blob/main/Structural%20Accessibility%20and%20Semantic%20Design%20for%20Multi-Modal%20Experiences.md). General multimodal principles and repeated prompt templates are routed to the companion guide and agent prompt resource. For current Double-FW terminology and entry status, consult [Terminology and Principles](https://github.com/Double-FW/Terminology-and-Principles/blob/main/START_HERE.md).
