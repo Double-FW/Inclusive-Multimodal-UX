@@ -36,8 +36,8 @@ Multimodal design should support meaningful choice and comparable outcomes. It s
 
 ## Source and consolidation note
 
-The main guide consolidates overlapping frameworks and repeated prompt templates from `Multimodal_UX_Design.md` in [Inclusive and Effective Design](https://github.com/Double-FW/Inclusive_and_Effective_Design). The maturity model and unique prompt material are retained in companion files. The semantic-structure source remains a separate module; shared modality guidance is linked rather than repeated. Preserve provenance and update the original repository with migration links after the destination material has been reviewed.
+The main guide consolidates overlapping frameworks and repeated prompt templates from `Multimodal_UX_Design.md` in [Inclusive and Effective Design](https://github.com/Double-FW/Inclusive_and_Effective_Design). The maturity model and unique prompt material are retained in companion files. The semantic-structure source remains a separate module; shared modality guidance is linked rather than repeated. The source repository has been updated: its original paths now point to the canonical guides here. Use this repository for future multimodal updates and preserve source provenance when revising the material.
 
 ## Status
 
-Initial consolidated guidance for review. It is design support, not a legal or conformance determination, a validated maturity instrument, or evidence of user outcomes.
+The consolidated guidance and companion modules are available for use and review. They provide design support, not a legal or conformance determination, a validated maturity instrument, or evidence of user outcomes.
